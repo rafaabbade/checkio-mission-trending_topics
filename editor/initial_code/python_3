@@ -10,8 +10,4 @@ assert trending_topics(["#python", "#java", "#python", "#javascript"]) == "#pyth
 assert trending_topics(["#music", "#art", "#music", "#art", "#music"]) == "#music"
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
-    # Seu código aqui
-    return None
 
-print("Example:")
-print(trending_topics([#python"
