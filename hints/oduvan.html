@@ -2,60 +2,75 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como contar a frequência usando um if dentro de um loop?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode criar uma lista vazia para armazenar as frequências e usar um loop for com um if para contar manualmente a frequência de cada elemento.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Deve ter um jeito mais fácil...
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Você pode usar a função count para contar quantas vezes cada elemento aparece na lista. Use um for para contar todos os elementos da lista.
+
+<pre class="brush: python">
+hashtags = ["#python", "#java", "#python", "#javascript"]
+hashtags.count(#python))
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    Quero deixar meu código mais eficiente, pois estou contando todos os elementos inclusive os que se repetem.
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    Você pode remover os itens já contados cada vez que eles aparecem. Você pode usar o método .pop() ou o método .remove(). Nesse caso é mais fácil usar o remove() pois o parâmetro fornecido é o valor da palavra, já o .pop() remove por índice.
+<pre class="brush:python">
+lista = [10, 20, 30, 40, 50]
+lista.remove(30)  # Remove a primeira ocorrência de 30
+print(lista)  # Saída: [10, 20, 40, 50]
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    Tem outro jeito?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    Você pode usar a função set() para criar uma coleção dos elementos.
+lista = [1, 2, 2, 3, 4, 4, 5]
+conjunto = set(lista)
+print(conjunto)  # Saída: {1, 2, 3, 4, 5}
+</pre>
+Mas atenção! O os elementos do conjunto nem sempre aparecem na mesma ordem da lista.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

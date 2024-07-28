@@ -1,1 +1,17 @@
-{{CODIGO INICIAL}}
+def trending_topics(hashtags):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(trending_topics(["#python", "#java", "#python", "#javascript"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert trending_topics(["#python", "#java", "#python", "#javascript"]) == "#python"
+assert trending_topics(["#music", "#art", "#music", "#art", "#music"]) == "#music"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(trending_topics([#python"
